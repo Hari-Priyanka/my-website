@@ -1,0 +1,45 @@
+.theme_toggle{
+    position: relative;
+}
+
+.theme_icon .icon{
+    margin: 0.5rem;
+    color: var(--primaryColor);
+    transition: var(--transition);
+}
+
+.icon:hover{
+    transform: scale(1.4);
+}
+
+.color_dropdown{
+    position: fixed;
+    top: 10rem;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bgColor-light);
+    border-radius: 0.5rem;
+    box-shadow: var(--boxShadow);
+    padding: 1rem;
+}
+
+.color_option{
+    width: 2rem;
+    height: 2rem;
+    margin: 1.5rem 0.8rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.color_option:hover{
+    transform: scale(1.4);
+}
+
+@media screen and (max-width: 480px){
+    .color_option{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 1rem;
+    }
+}

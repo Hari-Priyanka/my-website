@@ -1,0 +1,11 @@
+.footer{
+    width: 100%;
+    background-color: var(--bgColor);
+    padding: 3rem;
+    box-shadow: var(--boxShadow);
+}
+
+.footer_text{
+    text-align: center;
+    font-size: 2rem;
+}
